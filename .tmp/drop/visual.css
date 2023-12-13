@@ -24,19 +24,35 @@ p em {
 .item {
   border: 1px solid #1e10e1;
   margin: 5px;
-  padding: 50px 15px;
+  padding: 30px 15px;
   text-align: center;
   width: 500px;
 }
 .item > div {
-  margin-top: 10px;
-  /* Adjust as needed */
+  margin-top: 20px;
 }
 .spillage-yes {
   border: 2px solid red;
 }
 .spillage-no {
   opacity: 0.2;
+}
+.grid-container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.grid-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  height: 40px;
+}
+.grid-item img {
+  max-height: 100%;
+  width: auto;
 }
 
 

@@ -31,13 +31,13 @@ p {
 .item {
     border: 1px solid rgb(30, 16, 225);
     margin: 5px;
-    padding: 50px 15px;
+    padding: 30px 15px;
     text-align: center;
     width: 500px;
 }
 
 .item > div {
-    margin-top: 10px; /* Adjust as needed */
+    margin-top: 20px;
 }
 
 .spillage-yes {
@@ -46,4 +46,25 @@ p {
 
 .spillage-no {
     opacity: 0.2;
+}
+
+.grid-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; // Adjust the gap between grid items as needed
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.grid-item {
+    // Styling for each grid item
+    border: 1px solid #ddd; // Example border styling
+    padding: 10px; // Example padding styling
+    height: 40px;
+
+    img {
+        max-height: 100%;
+        width: auto;
+    }
 }
