@@ -1,0 +1,43 @@
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+p em {
+  background: yellow;
+  padding: 5px;
+}
+#myTable {
+  background-color: black;
+}
+#myTable td {
+  background-color: yellow;
+  color: black;
+  padding: 30px;
+}
+.scrollable-container {
+  overflow-y: auto;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item {
+  border: 1px solid #1e10e1;
+  margin: 5px;
+  padding: 50px 15px;
+  text-align: center;
+  width: 500px;
+}
+.item > div {
+  margin-top: 10px;
+  /* Adjust as needed */
+}
+.spillage-yes {
+  border: 2px solid red;
+}
+.spillage-no {
+  opacity: 0.2;
+}
+
+
+/*# sourceMappingURL=https://localhost:8080/assets/visual.css.map*/
