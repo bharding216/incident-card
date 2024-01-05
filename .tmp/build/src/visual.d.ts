@@ -7,6 +7,7 @@ export declare class Visual implements IVisual {
     private target;
     private formattingSettings;
     private formattingSettingsService;
+    private host;
     constructor(options: VisualConstructorOptions);
     private isFlipped;
     update(options: VisualUpdateOptions): void;
