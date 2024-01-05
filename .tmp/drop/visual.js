@@ -164,8 +164,9 @@ class Visual {
                     div.innerText = 'Attributes for Incident: N/A';
                 }
                 let cityValue = options.dataViews[0].categorical.categories[1].values[i].toString();
+                let stateValue = options.dataViews[0].categorical.categories[8].values[i].toString();
                 let cityDiv = document.createElement('div');
-                cityDiv.innerText = `Incident City: ${cityValue}`;
+                cityDiv.innerText = `Incident Location: ${cityValue}, ${stateValue}`;
                 div.appendChild(cityDiv);
                 // Create grid container
                 const gridContainer = document.createElement('div');
